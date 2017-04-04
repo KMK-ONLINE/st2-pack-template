@@ -1,12 +1,10 @@
-
----
-name: "chatops.ansible_local"
-action_ref: "ansible.command_local"
-description: "Run Ansible command on local machine"
+name: "chatops.provision_olympia"
+action_ref: "ansible.olympia.provision"
+description: "Run workflow to deploy Olympia"
 formats:
-  - display: "ansible <command>"
+  - display: "provision olympia"
     representation:
-      - "ansible {{ args }}"
+      - "provision olympia"
 result:
   format: |
     Ansible command `{{ execution.parameters.args }}` result: {~}
