@@ -1,8 +1,8 @@
 ### Place information about your pack version here.
 ---
-name: st2-pack-template
-description: A blank pack template!
+name: st2_chatops_demo_templates
+description: Demo templates for stackstorm slack demo
 version: 0.1.0
-author: StackStorm Stanley
-email: stanley@stackstorm.com
+author: Downs
+email: downs@pythian.com
 
