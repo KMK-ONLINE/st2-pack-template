@@ -1,6 +1,6 @@
 name: "chatops.provision_olympia"
-action_ref: "ansible.olympia.provision"
-description: "Run workflow to deploy Olympia"
+action_ref: "ansible.provision.olympia"
+description: "Run workflow to provision Olympia"
 formats:
   - "provision olympia on {{ environ }}"
 result:
